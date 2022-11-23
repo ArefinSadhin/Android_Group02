@@ -1,0 +1,2 @@
+conflicting line from newBranch.
+New conflicting line from newBranch.

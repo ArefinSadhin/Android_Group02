@@ -1,5 +1,17 @@
 This line was edited by sadhin
 This line is created by Mustafiz
-This 2nd line is written by Sadman Abir (30042). 
-This line is added by Moinul Morshed to create conflict.
-I am Mustafiz From Android and I am editing this file from my pc. earlier line was written in our repo. Nice to meet you
+
+Hey Mustafiz again I conflicted this file again. This is Working fine. Thank your for your cooperation. I have an idea lets add binary search code here
+
+val list = mutableListOf('a', 'b', 'c', 'd', 'e')
+println(list.binarySearch('d')) // 3
+
+list.remove('d')
+
+val invertedInsertionPoint = list.binarySearch('d')
+val actualInsertionPoint = -(invertedInsertionPoint + 1)
+println(actualInsertionPoint) // 3
+
+list.add(actualInsertionPoint, 'd')
+println(list) // [a, b, c, d, e]
+
